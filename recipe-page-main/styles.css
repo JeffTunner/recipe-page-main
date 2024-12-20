@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Outfit:wght@100..900&family=Young+Serif&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Outfit:wght@100..900&family=Young+Serif&display=swap');
+
+:root {
+--White: hsl(0, 0%, 100%);
+--LightStone : hsl(30, 54%, 90%);
+--lesslightStone : hsl(30, 18%, 87%);
+--GrayStone : hsl(30, 10%, 34%);
+--DarkStone : hsl(24, 5%, 18%);
+--Brown : hsl(14, 45%, 36%);
+--Rose : hsl(332, 51%, 32%);
+--lightRose : hsl(330, 100%, 98%);
+}
+
+body {
+    background-color: var(--LightStone);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+
+.container {
+ display: flex;
+ width: 660px;
+ background-color: var(--White);
+ flex-direction: column;
+ padding: 1.8rem;
+ border-radius: 14px;
+ margin-bottom: 20px;
+}
+
+.recipe {
+    font-size: 16px;
+    font-family: 'Outfit';
+    color: var(--GrayStone);
+    font-weight: normal;
+    line-height: 1.4;
+}
+
+h1 {
+    font-family: 'Young Serif';
+    color: var(--DarkStone);
+    font-weight: lighter;
+    margin-bottom: 0;
+    margin-top: 24px;
+    letter-spacing: 0.08rem;
+}
+
+.time {
+    background-color: var(--lightRose);
+    padding-left: 18px;
+    border-radius: 12px;
+}
+.time ul {
+    color: var(--Rose);
+}
+
+h3 {
+    font-family: 'Outfit';
+    color: var(--Rose);
+    font-weight: 600;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+h2 {
+    font-family: 'Young Serif';
+    color: var(--Brown);
+    font-weight: normal;
+}
+
+img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+p, li {
+    line-height: 1.6;
+    color: var(--DarkStone);
+    font-family: 'Outfit';
+    font-size: 16px;
+}
+
+li {
+    margin-top: 0.5rem;
+    color: var(--GrayStone);
+}
+
+ul, ol {
+    padding-left: 25px;
+    color: var(--Brown);
+}
+
+ul li {
+  padding-left: 20px; 
+
+}
+
+ol li {
+    padding-left: 16px; 
+}
+
+.Nutrition p {
+    color: var(--GrayStone);
+    margin-bottom: 0;
+}
+
+.Nutrition ul li {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+span {
+    color: var(--Brown);
+    font-weight: bold;
+}
+
+hr {
+    border: none; /* Remove default styling */
+    height: 1px; /* Line thickness */
+    background-color: var(--lesslightStone); /* Line color */
+    margin: 20px 0; /* Space above and below the line */
+}
+
+
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
